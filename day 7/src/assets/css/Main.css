@@ -1,0 +1,146 @@
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: -256;
+    right: 0;
+    padding: 0 20px; 
+  }
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .navbar-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0; 
+  }
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  .navbar-divider {
+    margin: 0 10px; 
+    color: #ccc; 
+  }
+  /* Updated CSS for the dashboard container */
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px; */
+    
+  }
+  
+  .dashboard-container {
+    margin-top: 70%; 
+    padding-top: 20px;
+  }
+  
+  
+  /* Updated CSS for individual dashboard options */
+  .dashboard-option {
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-option h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-option a {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-option a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Styling for the user email */
+  .dashboard-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .img{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center; /* Horizontally center the list */
+    align-items: flex-end; /* Vertically align at the bottom */
+    background-color: #4f4c4c; /* Adjust the background color as needed */
+    color: white; /* Text color */
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2%;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center; /* Horizontally center the list */
+    align-items: flex-end; /* Vertically align at the bottom */
+    background-color: #b5d3fe;
+    color: white; /* Text color */
+    padding: 2%;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .list-item {
+    margin-right: 30px ;
+  }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Optional: Style the links on hover */
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  

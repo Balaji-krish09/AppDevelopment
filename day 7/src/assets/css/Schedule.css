@@ -1,0 +1,81 @@
+/* Styling for the container */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #ff6b6b, #ffa96b);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling for the header */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the form inputs */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Add Meeting button */
+button {
+  background: linear-gradient(45deg, #ff6b6b, #ffa96b);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff463f, #ff8a3f);
+  transform: scale(1.05);
+}
+
+/* Meetings list styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.03);
+}
+
+/* Meeting titles styling */
+strong {
+  font-weight: bold;
+  color: #333;
+}
