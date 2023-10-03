@@ -1,0 +1,38 @@
+.privacy-policy {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .policy-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .policy-date {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .subsection-title {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
